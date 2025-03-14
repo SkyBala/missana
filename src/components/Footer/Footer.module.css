@@ -1,0 +1,22 @@
+.footer {
+  background: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .socials {
+    display: flex;
+    gap: 15px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

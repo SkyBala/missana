@@ -1,0 +1,171 @@
+.footer {
+  padding: 60px 0;
+  background: var(--background-color);
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer__contact {
+  grid-column: 1;
+
+}
+
+.footer__title {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--primary-color);
+  margin-bottom: 36px;
+  line-height: 1.2;
+  
+}
+
+.footer__subtitle {
+  font-size: 16px;
+  color: var(--gray-color);
+  line-height: 1.5;
+}
+
+.footer__info {
+  grid-column: 2;
+}
+
+.footer__info-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+
+.footer__info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__phone,
+.footer__email {
+  font-size: 16px;
+  color: var(--gray-color);
+  margin: 0;
+}
+
+.footer__nav {
+  grid-column: 3;
+}
+
+.footer__nav-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+
+.footer__nav-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__nav-link {
+  font-size: 16px;
+  color: var(--gray-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer__nav-link:hover {
+  color: var(--primary-color);
+}
+
+.footer__social {
+  grid-column: 4;
+}
+
+.footer__social-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+
+.footer__social-subtitle {
+  font-size: 16px;
+  color: var(--gray-color);
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.footer__social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  transition: opacity 0.3s;
+}
+
+.footer__social-link:hover {
+  opacity: 0.8;
+}
+
+.footer__social-link img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 992px) {
+  .footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .footer__contact {
+    grid-column: 1 / -1;
+  }
+
+  .footer__info {
+    grid-column: 1;
+  }
+
+  .footer__nav {
+    grid-column: 2;
+  }
+
+  .footer__social {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer__contact,
+  .footer__info,
+  .footer__nav,
+  .footer__social {
+    grid-column: 1;
+  }
+
+  .footer__title {
+    font-size: 28px;
+  }
+} 

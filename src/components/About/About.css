@@ -1,0 +1,161 @@
+.about {
+  padding: 120px 0;
+  }
+
+.about__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.about__left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__image {
+  width: 100%;
+  height: 500px;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.about__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--primary-color);
+}
+
+.about__description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--gray-color);
+}
+
+.about__features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.about__feature {
+  background: #F8F8F8;
+  padding: 32px;
+  border-radius: 0;
+  border: 1px solid #E5E5E5;
+}
+
+.about__feature--united {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  padding: 0;
+}
+
+.feature-item {
+  padding: 32px;
+  background: #F8F8F8;
+  border: 1px solid #E5E5E5;
+  margin: 0;
+}
+
+.feature-item:first-child {
+  border-right: none;
+}
+
+.about__feature h3,
+.feature-item h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--primary-color);
+}
+
+.about__feature p,
+.feature-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--gray-color);
+}
+
+@media (max-width: 1200px) {
+  .about__content {
+    gap: 60px;
+  }
+
+  .about__image {
+    height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding: 80px 0;
+  }
+
+  .about__content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about__image {
+    height: 350px;
+  }
+
+  .about__feature--united {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-item:first-child {
+    border-right: 1px solid #E5E5E5;
+    border-bottom: none;
+  }
+
+  .about__title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 0;
+  }
+
+  .about__left,
+  .about__right {
+    gap: 20px;
+  }
+
+  .about__image {
+    height: 300px;
+  }
+
+  .about__title {
+    font-size: 32px;
+  }
+
+  .about__feature,
+  .feature-item {
+    padding: 24px;
+  }
+} 
