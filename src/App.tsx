@@ -20,8 +20,9 @@ const App: FC = () => {
       
       
         <Stats />
-        <Reviews />
           <Catalog />
+        <Reviews />
+        
       </main>
       <Footer />
     </div>

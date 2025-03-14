@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import './Stats.css';
 import statsImage from '../../assets/statsImg.png';
-import clockIcon from '../../assets/ArrowDown.svg';
+import clockIcon from '../../assets/add_task.svg';
 import qualityIcon from '../../assets/arrowDoble.svg';
 
 const Stats: FC = () => {

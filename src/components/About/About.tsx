@@ -11,15 +11,15 @@ const About: FC = () => {
             <div className="about__image">
               <img src={about} alt="Выбор тканей" />
             </div>
-            <div className="about__feature about__feature--united">
-              <div className="feature-item">
+            <div className="about__features_container">
+               <div className="about__feature">
                 <h3>Современное оборудование</h3>
                 <p>
                   Автоматизированные раскройные комплексы и вышивальные станки, 
                   обеспечивающие точность и скорость производства.
                 </p>
               </div>
-              <div className="feature-item">
+              <div className="about__feature">
                 <h3>Качественные ткани и фурнитура</h3>
                 <p>
                   Работаем только с проверенными поставщиками, выбирая лучшие 
@@ -28,18 +28,18 @@ const About: FC = () => {
               </div>
             </div>
           </div>
-
           <div className="about__right">
+                <h2 className="about__title">О бренде MISSANA</h2>
             <div className="about__text">
-              <h2 className="about__title">О бренде MISSANA</h2>
+          
               <p className="about__description">
                 Missana — это швейная фабрика, специализирующаяся на производстве 
                 одежды по индивидуальным заказам. Мы работаем с различными материалами и 
                 обеспечиваем высокое качество пошива.
               </p>
             </div>
-
             <div className="about__features">
+             
               <div className="about__feature">
                 <h3>Гибкость в работе с заказчиками</h3>
                 <p>
@@ -47,7 +47,6 @@ const About: FC = () => {
                   пошива до крупных партий, всегда соблюдая сроки.
                 </p>
               </div>
-
               <div className="about__feature">
                 <h3>Контроль качества на всех этапах производства</h3>
                 <p>
