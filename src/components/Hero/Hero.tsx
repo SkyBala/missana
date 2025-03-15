@@ -11,8 +11,8 @@ const Hero: FC = () => {
         <div className="hero__content">
           <div className="hero__text">
             <h1 className="hero__title">
-              СТИЛЬ И<br />
-              КАЧЕСТВО<br />
+              СТИЛЬ И
+              КАЧЕСТВО
               В КАЖДОЙ ДЕТАЛИ
             </h1>
             <div className="hero__subtitle">

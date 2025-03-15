@@ -185,16 +185,16 @@
   }
 
   .hero__title {
-    font-size: 36px;
-    margin-bottom: 30px;
+    font-size: 26px;
+    margin-bottom: 20px;
   }
 
   .hero__subtitle h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .hero__description {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .hero__image {
