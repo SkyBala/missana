@@ -1,5 +1,5 @@
 .catalog {
-  padding: 120px 0;
+  padding: 80px 0;
 
 }
 
@@ -11,7 +11,7 @@
 
 .catalog__title {
   font-size: 48px;
-  font-weight: 400;
+  font-weight:700;
   text-align: left;
   margin-bottom: 40px;
   color: var(--primary-color);

@@ -30,7 +30,7 @@ const Hero: FC = () => {
             <img src={hero} alt="Модель в черно-белом платье" />
           </div>
           <div className="hero__cards">
-            <div className="hero__card">
+            <div className="hero__card-partner">
               <div className="hero__card-header">
                 <h3>Станьте нашим партнёром на Wildberries!</h3>
                 <img src={arrow} alt="Стрелка" />
@@ -40,7 +40,7 @@ const Hero: FC = () => {
                 Мы знаем все нюансы продажи и предлагаем выгодные условия для совместной работы.
               </p>
             </div>
-            <div className="hero__card">
+            <div className="hero__card-official">
               <div className="hero__card-header">
                 <h3>Работаем официально и прозрачно!</h3>
                 <img src={hanger} alt="Вешалка" />
